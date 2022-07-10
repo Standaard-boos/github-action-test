@@ -1,7 +1,7 @@
 name: Actions Workflow
 
-
-on: [push]
+# the event whene the jobs should run
+on: [push , pull_request]
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
