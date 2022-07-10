@@ -2,11 +2,11 @@ name: Actions Workflow
 
 # the event when the jobs should run
 on:
-  #push:
-  schedule:
+  push:
+  #schedule:
     # minutes, hours, day of month, month, day of the week
-    - cron: "0/5 * * * *" # at every 5th minute
-    - cron: "0/6 * * * *" # at every 6th minute
+   # - cron: "0/5 * * * *" # at every 5th minute
+   # - cron: "0/6 * * * *" # at every 6th minute
   pull_request:
     types:
       - closed
