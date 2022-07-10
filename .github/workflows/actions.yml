@@ -1,6 +1,6 @@
 name: Actions Workflow
 
-# the event whene the jobs should run
+# the event when the jobs should run
 on: [push , pull_request]
 jobs:
   run-github-actions:
